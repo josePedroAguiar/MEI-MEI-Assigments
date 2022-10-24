@@ -1,2 +1,2 @@
 
-./fileName.txt ./input1.txt ./input10.txt ./input11.txt ./input12.txt ./input13.txt ./input14.txt ./input15.txt ./input16.txt ./input17.txt ./input18.txt ./input19.txt ./input2.txt ./input20.txt ./input21.txt ./input22.txt ./input23.txt ./input3.txt ./input4.txt ./input5.txt ./input6.txt ./input7.txt ./input8.txt ./input9.txt  
+./inputs/input1.02.txt  
