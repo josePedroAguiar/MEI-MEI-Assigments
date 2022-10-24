@@ -76,7 +76,7 @@ def main():
                 M.append([i,j])
                 L[i].append(j)   
 
-    fout = open(f,"w")
+    fout = open(f,"w+")
     if check(L,n) == True:
         fout.write(str(n) + " " + str(m) + "\n")
         for i in M:

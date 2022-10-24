@@ -16,10 +16,10 @@ maxcapacaty=$((9999*$j))
       #c=$(($RANDOM%99999))
       #per= "val=$(($RANDOM%101));val=/100.1" | bc 
       echo "gerar input$c:"
-      for (( i=1; i<=20; i++ ))
+      for (( i=1; i<=10; i++ ))
         do
 
-        per=`echo "scale=2;var=$((($i*5)%101));var/=100;var" | bc`
+        per=`echo "scale=2;var=$((($i*10)%101));var/=100;var" | bc`
         echo "  gerar input$c$per"
         python3 gen.py  $vert $per  $maxcapacaty $maxflow ./inputs/input$maxflow$maxcapacaty$c$per.txt
         done
